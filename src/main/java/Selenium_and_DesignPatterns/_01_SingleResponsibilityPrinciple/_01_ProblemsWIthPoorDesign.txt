@@ -1,0 +1,39 @@
+Class - A class represents a real world entity. It consists of properties/members and behaviours/methods.
+    -> Class level properties are being share among all the methods of the class.
+            *. If a method modifies a property, other methods using the property might produce different output
+
+Ex: A selenium project code written for chrome driver may not work if chrome driver is not available or path is changed or instead firefox driver used
+****************************************************************************************************
+
+Good Code v/s Bad Code:
+    Bad Code:
+        *. Quick to develop
+        *. Less initial effort
+        *. More maintenance effort
+        *. Difficult to introduce a change and requires thorough testing for all the functionalities of the class
+        *. Mostly patch work with if-else blocks
+    Good Code:
+        *. More initial effort
+        *. Less maintenance
+        *. Easy to introduce a new change
+        *. Comes with experience/knowledge
+****************************************************************************************************
+
+Testing Effort:
+    *. When a class is modified, all the responsibilities(i.e. features), the class is handling, need to be tested
+    *. Testing effort α total number of responsibilities of all the classes being modified
+    *. To minimize the effort, minimize the responsibility
+****************************************************************************************************
+
+Single Responsibility Principle(SRP): A class should have only one responsibility or one reason to change
+    A class which follows Single Responsibility Principle is Highly cohesive and loosely coupled
+****************************************************************************************************
+
+Coupling - It is the measure of the degree of the dependencies among classes/modules
+    Highly coupled - too many dependencies
+    Loosely coupled - less dependencies
+
+Cohesion - It is the measure of the degree of the relationship of the members within a class/module
+    High cohesion - All the members of a class are very closely related. They are related to single responsibility.
+    Low cohesion - Members are not related
+****************************************************************************************************

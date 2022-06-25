@@ -1,0 +1,7 @@
+Consider simple automation of a workflow,
+    -> Launch Google site -> Enter a keyword on main page -> Click on Nth suggestion -> Enter the same keyword on the Google results page -> Click on Nth suggestion once again -> Go to news/videos/images -> Print the search result stat
+
+We usually consider each page as one class called 'Page Object', we create multiple components of separate classes and connect together
+So we consider the 4 components - text search-box, suggestion, navigation-bar, result stat and connect them
+
+NOTE: Inheritance is not the right-way to achieve reusability, Compostion is the right way

@@ -1,0 +1,24 @@
+Design Patterns -  A software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.
+
+https://refactoring.guru/design-patterns
+
+*. Creational Patterns - How objects are created
+    Creational - Singleton, Prototype, Builder, Factory
+*. Structural Patterns - How objects are related to each other
+    Structural - Facade, Proxy
+*. Behavioral Patterns - How objects communicate with each other
+    Behavioral - Iterator, Observer, Mediator, State
+
+
+Singleton - It is a type of object that can be instantiated only once
+Prototype - Alternative way to implement inheritance using objects
+Builder - Step by step creation of methods rather than constructors
+Factory - Instead of using new keyword to instantiate an object we use a function or method
+
+Facade - A simplified API to hide other low level details in the codebase
+Proxy - A substitute to replace the real thing i.e. replacing a target object with a proxy
+
+Iterator - It is a pull based system, it allows traversing through a collection of objects
+Observer - It is a push based system, it allows many objects to subscribe to events that are broadcast by other objects. It is a one to many relationship
+Mediator - It is like a middle-man or a broker
+State - Objects behaves differently based on finite number of states available in the application
